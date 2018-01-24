@@ -49,8 +49,9 @@ def get_all_tweets(screen_name):
 	#transform the tweepy tweets into a 2D array that will populate the csv	
 	outtweets = [[tweet.created_at, tweet.text] for tweet in alltweets]#remove tweet.created-at to get just text.
 	
-	#write the csv	
-	with open('D:/Code/Python Code/HSA Project/%s_tweets.csv' % screen_name, 'w', encoding='utf8') as f:
+	#write the csv
+	dirPath = os.path.dirname(os.path.realpath(__file__)) 	
+	with open(dirPath  + '\\CollectedTweets\\%s_tweets.csv' % screen_name, 'w', encoding='utf8') as f:
 		writer = csv.writer(f)
 		writer.writerow(["text"])#can remove this line of code
 		writer.writerows(outtweets)

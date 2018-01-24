@@ -1,0 +1,61 @@
+No @ or # removed
+Top terms per cluster:
+Cluster 0:
+b'boots'
+b'new'
+b'goal'
+b'love'
+b'first'
+b'wear'
+b'day'
+b'excited'
+b'mercurial'
+b'tomorrow'
+
+Cluster 1:
+b'hotel'
+b'tb'
+b'ago'
+b'opening'
+b'pestanacr7'	- hotel
+b'first'
+b'one'
+b'year'
+b'footage'
+b'follow'
+
+Cluster 2:
+b'team'
+b'done'
+b'well'
+b'boys'
+b'points'
+b'cr7live'
+b'topwell'
+b'vamosssssssssswell'
+b'win'
+b'semi'
+
+Cluster 3:
+b'shanghai'
+b'thank'
+b'cr7live'
+b'tomorrow'
+b'zoom'	- trainers
+b'first'
+b'fit'
+b'fitness'
+b'fits'
+b'flagship'
+
+Cluster 4:
+b'new'
+b'cr7'
+b'happy'
+b'mercurial'	- boots
+b'time'
+b'morning'
+b'good'
+b'now'
+b'available'
+b'best'
