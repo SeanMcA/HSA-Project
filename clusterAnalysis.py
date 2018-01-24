@@ -10,7 +10,8 @@ filePath = dirPath + "\\CleanedTweets\\cristianoronaldoCleaned.txt"
 documents = open(filePath, encoding = "utf8")
 
 
-stop_words = get_stop_words('english')
+#stop_words = get_stop_words('english')
+stop_words = get_stop_words('portuguese')
 #stop_words = stop_words.union(["rt", "and", "let", "dru", "dandrufffree", "lachi", "flies", "sunday",  "ravi", "amp", "pooja", "debasmita", "chris", "martin", "arun", "lil", "robski", "brodie", "brady", "dele", "namma", "dru"])
 my_list = (["rt", "and", "let", "dru", "dandrufffree", "lachi", "flies", "sunday",  "ravi", "amp", "pooja", "debasmita", "chris", "martin", "arun", "lil", "robski", "brodie", "brady", "dele", "namma", "dru"])
 
