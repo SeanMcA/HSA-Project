@@ -7,13 +7,16 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 import os
 
 dirPath = os.path.dirname(os.path.realpath(__file__)) 
-filePath = dirPath + "\\CleanedTweets\\allWomensTweetsCleanedNoHT.txt"
+filePath = dirPath + "\\CleanedTweets\\allMensTweetsCleanedNoHT.txt"
 
 documents = open(filePath, encoding = "utf8")
 
 stop_words = get_stop_words('english')
 
 my_list = ([
+"easter","xx",
+"san","juan",
+"leo","decided",
 "rt", "and", "let", "dru", "dandrufffree", "lachi", 
 "flies", "sunday",  "ravi", "amp", "arun", "lil", 
 "come", "just", "nah", "know", "care",
