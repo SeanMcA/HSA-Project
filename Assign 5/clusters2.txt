@@ -1,0 +1,102 @@
+Top terms per cluster - women:
+Cluster 0:
+b'love'
+b'thank'
+b'great'
+b'today'
+b'new'
+b'game'
+Cluster 1:
+b'morning'
+b'fun'
+b'good'
+b'practice'
+b'night'
+b'great'
+Cluster 2:
+b'thank'
+b'support'
+b'everyone'
+b'great'
+b'joining'
+b'amazing'
+Cluster 3:
+b'happy'
+b'birthday'
+b'everyone'
+b'wishing'
+b'hope'
+b'new'
+Cluster 4:
+b'rico'
+b'puerto'
+b'exhibition'
+b'1215'
+b'join'
+b'mara'
+
+
+
+Top terms per cluster - men:
+Cluster 0:
+b'thank'
+b'good'
+b'great'
+b'happy'
+b'congrats'
+b'team'
+Cluster 1:
+b'respect'
+b'nothing'
+b'right'
+b'country'
+b'dog'
+b'yesssss'
+Cluster 2:
+b'wildcat'
+b'great'
+b'guess'
+b'success'
+b'still'
+b'proud'
+Cluster 3:
+b'lock'
+b'zlatan'
+b'featuring'
+b'fellas'
+b'fella'
+b'feet'
+Cluster 4:
+b'video'
+b'houseofhighlights'
+b'watch'
+b'nbaontnt'
+b'sportscenter'
+b'nba'
+
+my_list = ([
+"rt", "and", "let", "dru", "dandrufffree", "lachi", 
+"flies", "sunday",  "ravi", "amp", "arun", "lil", 
+"come", "just", "nah", "know", "care",
+"taken", "one", "nice",  "go", "ok", "flexfriday", "see",
+"950", "915", "saw", "need","cr7","250", "already",
+"en", "de", "el","la", "muy",
+"find","now",
+"mean", "doesn", "ain","take", "made","thoughts",
+"relly", "rj", "yeah",
+"flip", "real", "big", "back", "time",
+"feliz", "zo", 
+"ive", "ur", "fav", "fave", "even", "get", "day", "sir", "yes", "comes",  
+#"now", "new", "man", "yet", "lock", "fantasy", "fax",  "getting",
+"goes", "fart", "farther", "can", "keep", "don", "well", 
+"much", "seems", "us", "like", "five", "fc", "will",
+"going", "far", "give", "zoom", "always", "another",
+"keeps", "soon", "re", "lol", "wireless", "space", "last,"
+"looking", "make", "thing", "please", "aww", "awee", "everything",
+"youuuu", "youuu", "rahul", "extravagant", "extremely", "extra", "finally",
+"zverev", "put", "putting",  "two", "zouk", "theyre", "met", "lot", "looks", "em", 
+"lisbon", "portugal", "got", "im", "lets", "fa", "fab", "orrrrrr", "boxes", "days", "way", "couldnt",
+#"zne",  "eye", "24", "almost", "ct", "et", "de", "la", "120", "31", "ppl", "next", "25", "dont", "lots", "whos",
+"chris", "martin", "pooja", "debasmita", "robski", "brodie", "brady", "gareth", "southgate", "kyrie", "irving", "jimmy", "billy", "stephen", "curry",
+"Annie", "Leibovitz", "prarthna", "thombare", "zoey", "faye", "nelson", "mandela", "cassius", "isco", "kroos", "carmelo", "anthony",
+"dele", "namma", "dru"])

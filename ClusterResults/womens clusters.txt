@@ -1,0 +1,60 @@
+Top terms per cluster:
+Cluster 0:
+love
+thank
+happy
+great
+good
+today
+game
+photo
+posted
+best
+
+Cluster 1:
+baby
+forever
+thank
+santa
+dearest
+bad
+cassius
+love
+hugs
+scores
+
+Cluster 2:
+wait
+cant
+play
+guy
+league
+love
+tonight
+favourite
+hear
+birds
+
+Cluster 3:
+days
+work
+waiting
+feels
+friends
+home
+good
+way
+friendship
+nyc
+
+Cluster 4:
+thank
+love
+support
+everyone
+team
+babe
+joining
+hours
+appreciate
+wow

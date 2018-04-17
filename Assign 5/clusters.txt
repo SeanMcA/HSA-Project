@@ -1,0 +1,97 @@
+
+"rt", "and", "let", "dru", "dandrufffree", "lachi", 
+"flies", "sunday",  "ravi", "amp", "arun", "lil", 
+"come", "just", "nah", "know", "care",
+"taken", "one", "nice",  "go", "ok", "flexfriday", "see",
+"950", "915", "saw", "need",
+"en", "de", "el","la", "muy",
+#"flip", "real", "big", "back", "time",
+#"ive", "ur", "fav", "fave", "even", "get", "day", "sir", "yes", "comes",  
+#"now", "new", "man", "yet", "lock", "fantasy", "fax",  "getting",
+"goes", "fart", "farther", "can", "keep", "don", "well", 
+"much", "seems", "us", "like", "five", "fc", "will",
+#"going", "far", "give", "zoom", "always", "another",
+#"keeps", "soon", "re", "lol", "wireless", "space", "last,"
+#"looking", "make", "thing", "please", "aww", "awee", "everything",
+#"youuuu", "youuu", "rahul", "extravagant", "extremely", "extra", "finally",
+"zverev", "put", "putting",  "two", "zouk", "theyre", "met", "lot", "looks", "em", 
+"lisbon", "portugal", "got", "im", "lets", "fa", "fab", "orrrrrr", "boxes", "days", "way", "couldnt",
+#"zne",  "eye", "24", "almost", "ct", "et", "de", "la", "120", "31", "ppl", "next", "25", "dont", "lots", "whos",
+#"chris", "martin", "pooja", "debasmita", "robski", "brodie", "brady", "gareth", "southgate", "kyrie", "irving", "jimmy", "billy", "stephen", "curry",
+#"Annie", "Leibovitz", "prarthna", "thombare", "zoey", "faye", "nelson", "mandela", "cassius", "isco", "kroos", "carmelo", "anthony",
+"dele", "namma", "dru"])
+
+Top terms per cluster - MEN:
+Cluster 0:
+b'thank'
+b'good'
+b'great'
+b'happy'
+b'game'
+b'time'
+Cluster 1:
+b'respect'
+b'nothing'
+b'right'
+b'big'
+b'dog'
+b'yesssss'
+Cluster 2:
+b'lock'
+b'zoom'
+b'fault'
+b'feel'
+b'feedback'
+b'featuring'
+Cluster 3:
+b'pumped'
+b'tonight'
+b'10pm'
+b'preview'
+b'guys'
+b'love'
+Cluster 4:
+b'team'
+b'thank'
+b'great'
+b'done'
+b'india'
+b'win
+
+
+Top terms per cluster - Women:
+Cluster 0:
+b'monday'
+b'full'
+b'interview'
+b'hope'
+b'motion'
+b'mornings'
+Cluster 1:
+b'day'
+b'love'
+b'great'
+b'new'
+b'today'
+b'happy'
+Cluster 2:
+b'someone'
+b'excited'
+b'never'
+b'dad'
+b'day'
+b'hang'
+Cluster 3:
+b'thank'
+b'aww'
+b'support'
+b'everything'
+b'everyone'
+b'amazing'
+Cluster 4:
+b'second'
+b'look'
+b'tiebreak'
+b'feels'
+b'board'
+b'bound''

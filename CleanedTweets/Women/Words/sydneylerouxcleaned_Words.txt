@@ -1,0 +1,21 @@
+team: 3
+player: 4
+game: 39
+
+women: 2
+female: 0
+girl: 3
+men: 1
+male: 1
+boy: 3
+
+family: 5
+love: 16
+happy: 8
+best: 10
+year: 10
+good: 14
+first: 10
+today: 5
+win: 5
+congrat: 7

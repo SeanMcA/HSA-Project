@@ -15,8 +15,9 @@ def strip_date_time(line):
 	else:
 		return line
 		
-# define punctuation to be removed - not removing @ ' or # 	could we add in 🔜?
+# define punctuation to be removed - not removing @ ' or #?
 punctuations = '''!()-[]{};:"\,<>./?$%^&*_~🔜'''
+hashTagsAndRefs = '''@#'''  
 
 def removePunctuation(line):
 	no_punct = ""
@@ -26,7 +27,11 @@ def removePunctuation(line):
 	return no_punct
 	
 	
-
+def remove_hashTagsAndRefs(word):
+	if( word[:1] in hashTagsAndRefs ):
+		return ''
+	else:
+		return word
 	
 def remove_https_from(word):
 	if(word[:5] =='https'):
@@ -35,14 +40,14 @@ def remove_https_from(word):
 		return word
 		
 def remove_empty_lines(line):
-	if(word[:5] =='\\n\\r'):
+	if(line[:5] =='\\n\\r'):
 		return ''
 		
 def remove_control_characters(word):
     return "".join(ch for ch in word if unicodedata.category(ch)[0]!="C")
 	
 def remove_non_prinatble(word):
-	printable = set(string.printable)
+	printable = set(string.printable) # 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
 	no_punct = ""
 	for char in word:
 	   if char in printable:
@@ -69,14 +74,14 @@ def getCounts(file):
 	
 def replacement(name):
 	dirPath = os.path.dirname(os.path.realpath(__file__))
-	filePath = dirPath + "\\CollectedTweets\\" + name + ".txt"
+	filePath = dirPath + "\\CollectedTweets\\dateSpecificTweetsWomen\\" + name + ".txt"
 	changedFile = dirPath + "\\CleanedTweets\\" + name + "Cleaned.txt"
 	
 	getCounts(filePath)
 	
 	o = open(changedFile, "w", encoding = "utf8")#file containing the changed text  .
 			# a opens the file in 'append' mode so you don't delete all the information.
-			# w opens th e file in write mode which clears the contents of the file each time.
+			# w opens the file in write mode which clears the contents of the file each time.
 	o.write('Hashtags: ' + str(hashtagCount) + '\n')
 	o.write('https: ' + str(httpsCount) + '\n')
 	o.write('Tweets: ' + str(tweets) + '\n')
@@ -85,15 +90,17 @@ def replacement(name):
 	for line in open(filePath, encoding = "utf8"):#this is the original file.
 		line = strip_date_time(line)
 		line = removePunctuation(line)
+		#line = remove_empty_lines(line)
 		split_line = line.split() #split the line into individual words.
 		new_split_line1 = [remove_https_from(word) for word in split_line]
 		new_split_line2 = [remove_control_characters(word) for word in new_split_line1]
 		new_split_line3 = [remove_non_prinatble(word) for word in new_split_line2]
-		new_line = ' '.join(new_split_line3)
+		new_split_line4 = [remove_hashTagsAndRefs(word) for word in new_split_line3]
+		new_line = ' '.join(new_split_line4)
 		o.write(new_line + '\n')
 	o.close()
 
 
 if __name__ == '__main__':
-	fileToBeCleaned = 'waynerooney'
+	fileToBeCleaned = 'allWomensTweets'
 	replacement(fileToBeCleaned)

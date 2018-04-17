@@ -3,6 +3,7 @@
 
 import tweepy #https://github.com/tweepy/tweepy
 import csv
+import os
 
 #Variables that contain the user credentials to access Twitter
 ACCESS_TOKEN = "177891021-rsIf4Mcnnwkcx092vfSrvJ6ylTG3xvNe0wFkkoLO"
@@ -23,7 +24,7 @@ def get_all_tweets(screen_name):
 	alltweets = []	
 	
 	#make initial request for most recent tweets (200 is the maximum allowed count)
-	new_tweets = api.user_timeline(screen_name = screen_name,count=200)
+	new_tweets = api.user_timeline(screen_name = screen_name,count=200, encoding='utf8')
 	
 	#save most recent tweets
 	alltweets.extend(new_tweets)
@@ -36,7 +37,7 @@ def get_all_tweets(screen_name):
 		print ("getting tweets before %s" % oldest)
 		
 		#all subsiquent requests use the max_id param to prevent duplicates
-		new_tweets = api.user_timeline(screen_name = screen_name,count=200,max_id=oldest)
+		new_tweets = api.user_timeline(screen_name = screen_name,count=200,max_id=oldest, encoding='utf8')
 		
 		#save most recent tweets
 		alltweets.extend(new_tweets)
@@ -61,4 +62,4 @@ def get_all_tweets(screen_name):
 
 if __name__ == '__main__':
 	#pass in the username of the account you want to download
-	get_all_tweets("realpaigewwe")
+	get_all_tweets("danicapatrick")

@@ -1,0 +1,74 @@
+Top terms per cluster - MEN:
+Cluster 0:
+b'thank'
+b'good'
+b'great'
+b'happy'
+b'game'
+b'time'
+Cluster 1:
+b'respect'
+b'nothing'
+b'right'
+b'big'
+b'dog'
+b'yesssss'
+Cluster 2:
+b'lock'
+b'zoom'
+b'fault'
+b'feel'
+b'feedback'
+b'featuring'
+Cluster 3:
+b'pumped'
+b'tonight'
+b'10pm'
+b'preview'
+b'guys'
+b'love'
+Cluster 4:
+b'team'
+b'thank'
+b'great'
+b'done'
+b'india'
+b'win
+
+
+Top terms per cluster - Women:
+Cluster 0:
+b'monday'
+b'full'
+b'interview'
+b'hope'
+b'motion'
+b'mornings'
+Cluster 1:
+b'day'
+b'love'
+b'great'
+b'new'
+b'today'
+b'happy'
+Cluster 2:
+b'someone'
+b'excited'
+b'never'
+b'dad'
+b'day'
+b'hang'
+Cluster 3:
+b'thank'
+b'aww'
+b'support'
+b'everything'
+b'everyone'
+b'amazing'
+Cluster 4:
+b'second'
+b'look'
+b'tiebreak'
+b'feels'
+b'board'
+b'bound''
