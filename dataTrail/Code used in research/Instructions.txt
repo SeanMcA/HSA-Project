@@ -1,0 +1,26 @@
+1:	put twitter handle into 'getTweets.py'
+	This produces a csv file in the 'Collected Tweets' folder.
+
+2: 	change file name from .csv to .txt
+
+3:	Manually select the tweets from the dates 2016-10-01 to 2017-09-30
+
+4:	run the joinFile.py script to join all the text files together.
+	Do this for the mens and womens files.
+	The output will be a large file in the 'CollectedTweets/dateSpecificTweetsMen' folder.
+
+
+5: 	put file name from step 1 above into 'cleanData' file 	
+	This produces a count of # and @ in the file and removes any non a->z, 0->9 characters.
+	The output file is in the CleanedTweets folder
+
+6:	run CleanedTweets file through countHashTagsAnd@ script
+	this ouputs a file with the hashtags and @'s counted and put in decending order.
+
+7:	run CleanedTweets file through elbow.py to get an idea of the number of clusters
+
+8:	run CleanedTweets file through clusterAnalysis.py for the analysis
+	Add to stopwords and repeat the analysis.
+	Replaced thanks with thank
+replaced liks with kid
+remove fantasy, its a name fantasy football, fantasy farms, fantasy camp, etc
