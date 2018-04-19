@@ -6,10 +6,10 @@ import csv
 import os
 
 #Variables that contain the user credentials to access Twitter
-ACCESS_TOKEN = "177891021-rsIf4Mcnnwkcx092vfSrvJ6ylTG3xvNe0wFkkoLO"
-ACCESS_SECRET = "5klR3976OZb24wInOElnGOkmFxb36ZWrrh5vscvLzwcN8"
-CONSUMER_KEY = "D1OwPAqtnQF7Vi4Al6fSK2vBA"
-CONSUMER_SECRET = "65kltc1dWZrG44IGUASJrELvtWGURBtxxfBY8li0zOAksSIbk6"
+from tokens import ACCESS_TOKEN
+from tokens import ACCESS_SECRET
+from tokens import CONSUMER_KEY
+from tokens import CONSUMER_SECRET
 
 
 def get_all_tweets(screen_name):

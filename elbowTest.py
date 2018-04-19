@@ -43,8 +43,8 @@ documents = open(filePath, encoding = "utf8")
 vectorizer = TfidfVectorizer(min_df =2, max_df=0.6, lowercase = True, stop_words = my_stop_words, max_features = 500000)
 Y = vectorizer.fit_transform(documents)
 
-Nc = range(1, 10)
-kmeans = [KMeans(n_clusters=i) for i in Nc]
+Nc = range(1, 16)
+kmeans = [KMeans(n_clusters=i, random_state=2100) for i in Nc]
 kmeans
 score = [kmeans[i].fit(Y).score(Y) for i in range(len(kmeans))]
 score
